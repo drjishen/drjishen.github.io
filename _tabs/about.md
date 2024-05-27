@@ -15,7 +15,7 @@
 
 ## ![Languages](https://img.icons8.com/ios/24/000000/language.png) Languages
 
-- English C1 (IELTS Academic - 7.5, 12 years of schooling, 6 years in Medicine, and 1.5 years of M.Sc. study)
+- English C1 (IELTS Academic - 7.5, 12 years of schooling, 6 years in Medicine, and 1.5 years of M.Sc. study in Germany)
 - German B2.1 Level (Fluent in day-to-day conversations and basic professional discussions)
 - Malayalam (Native language)
 
