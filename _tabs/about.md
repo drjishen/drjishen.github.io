@@ -1,63 +1,62 @@
----
 # **Curriculum Vitae**
 
 ---
 
 ## ![Skills](https://img.icons8.com/ios/24/000000/medal.png) Skills
 
-- Practice experience in Geriatrics Medicine (1.5 years)
-- Good Communication Skills - English and German (Professional Level)
-- Medical Documentation, Evidence Based Medicine (Expert)
-- Digital Health: mHealth, e-health, and Telemedicine (Expert)
-- Medical Data Analysis (Expert)
-- Interoperability Standards and Architect: ICD, SNOMED CT, LOINC, HL7, OpenEHR (Expert)
-- Programming Skills - R, C++ (Early stage)
-- Cyber security and networking 
+- Practice experience in Geriatric Medicine (1.5 years)
+- Good communication skills in English and German (Professional Level)
+- Medical documentation and evidence-based medicine (Expert)
+- Digital health: mHealth, e-health, and telemedicine (Expert)
+- Medical data analysis (Expert)
+- Interoperability standards and architecture: ICD, SNOMED CT, LOINC, HL7, OpenEHR (Expert)
+- Programming skills in R, C++ (Beginner)
+- Cybersecurity and networking
 
-## ![Language](https://img.icons8.com/ios/24/000000/language.png) Language
+## ![Languages](https://img.icons8.com/ios/24/000000/language.png) Languages
 
-- English C1 (IELTS Academic - 7.5, 12 years Schooling, 6 years Medicine and 1.5 years M.Sc. study)
-- German B 2.1 Level (Speaking - Fluid day-to-day, and basic professional conversion)
+- English C1 (IELTS Academic - 7.5, 12 years of schooling, 6 years in Medicine, and 1.5 years of M.Sc. study)
+- German B2.1 Level (Fluent in day-to-day conversations and basic professional discussions)
 - Malayalam (Native language)
 
 ## ![Work Experience](https://img.icons8.com/ios/24/000000/briefcase.png) Work Experience
 
-**Sep. 2022 - Current**  
+**Sep. 2022 - Present**  
 **Research Associate**  
 Pfarrkirchen, Germany  
 
-- Support Digital Health research activities at European Campus Rottal-Inn, Deggendorf Institute of Technology.
-- DigiHealthDay event series, organizing committee member, and responsible for program content and communication.
-- Lecturing in Master of Digital Health (MDH) course in ECRI, on Digital Health Applications.
+- Supported digital health research activities at the European Campus Rottal-Inn, Deggendorf Institute of Technology.
+- Member of the organizing committee for the DigiHealthDay event series, responsible for program content and communication.
+- Lectured in the Master of Digital Health (MDH) course at ECRI on Digital Health Applications.
 
 **Mar. 2019 - Sep. 2022**  
 **Graduate Teaching Assistant (SHK)**  
 Pfarrkirchen, Germany  
-European Campus Rottal Inn
+European Campus Rottal-Inn
 
-- Update, develop and improve graduate teaching materials:
+- Updated, developed, and improved graduate teaching materials:
   - Fundamentals of Digital Health (eHealth and Telemedicine)
   - Digital Health Applications
-- Organizing Committee member - DigiHealthDayTM:
-  - Communicating with experts in the field, on behalf of the campus.
-  - Help to organize the event series DigiHealthDay.
-  - Handle communications with international and local partners including HIMSS, ISfTeH, IMIA, EFMI.
-  - Prepare regular event updates and announcement letters.
-  - Help update the website [DigiHealthDay](https://www.th-deg.de/digihealthday).
-- Organization and conduct of complementary On-Campus Activities: invited lectures, workshops, video-lectures, scientific conferences, master’s colloquia.
-- Organization and conduct of complementary Off-Campus Activities: field trips, scientific conferences, external meetings, trip management, students’ feedback.
-- Assist researchers at DIT-ECRI to develop and improve Digital Health Educational curriculum.
+- Organizing committee member for DigiHealthDayTM:
+  - Communicated with experts in the field on behalf of the campus.
+  - Assisted in organizing the DigiHealthDay event series.
+  - Handled communications with international and local partners, including HIMSS, ISfTeH, IMIA, and EFMI.
+  - Prepared regular event updates and announcement letters.
+  - Helped update the website [DigiHealthDay](https://www.th-deg.de/digihealthday).
+- Organized and conducted complementary on-campus activities: invited lectures, workshops, video lectures, scientific conferences, and master’s colloquia.
+- Organized and conducted complementary off-campus activities: field trips, scientific conferences, external meetings, trip management, and student feedback.
+- Assisted researchers at DIT-ECRI in developing and improving the Digital Health Educational curriculum.
 
 **Apr. 2017 - Sep. 2018**  
 **Medical Officer**  
 Kerala, India  
-‘Vayomithram’, a mobile Geriatric and Palliative Clinic
+‘Vayomithram’, a mobile geriatric and palliative clinic
 
-- Non-Communicable Disease Management of the Elderly (65+ years).
-- Ambulatory Care for Chronic Metabolic diseases: Type 2 Diabetes, Systemic Hypertension, Dyslipidemia, Chronic cardiovascular diseases: Coronary Artery Disease, Cerebrovascular Diseases, Chronic Pulmonary diseases: COPD, and Asthma.
-- Risk factor identification, lifestyle modification advice, and support.
-- Management of Mental and Neurological diseases: Dementia, Depression, and Anxiety, and Plegias.
-- Management of Musculoskeletal disease: Arthritis.
+- Managed non-communicable diseases in the elderly (65+ years).
+- Provided ambulatory care for chronic metabolic diseases: Type 2 diabetes, systemic hypertension, dyslipidemia, chronic cardiovascular diseases (coronary artery disease, cerebrovascular diseases), and chronic pulmonary diseases (COPD and asthma).
+- Identified risk factors and provided lifestyle modification advice and support.
+- Managed mental and neurological diseases: dementia, depression, anxiety, and plegias.
+- Managed musculoskeletal diseases: arthritis.
 
 **June 2015 - Nov. 2016**  
 **Internship in Medicine**  
@@ -69,16 +68,16 @@ Government Medical College Ernakulam
 ## ![Education](https://img.icons8.com/ios/24/000000/school.png) Education
 
 **Oct. 2018 - Sep. 2022**  
-**Master Medical Informatics**  
+**Master of Medical Informatics**  
 Pfarrkirchen, Germany  
-European Campus Rottal-Inn (1,3)
+European Campus Rottal-Inn (1.3)
 
-- Thesis: Needs Assessment and Development of Virtual Course in Digital Health (1,0).
-- Study program provided knowledge, training and discussions on current Digital Health curriculum and trends. Modules include topics on:
-  - Evidence Based Medicine
-  - Standards, Terminology and Classification in Medicine
+- Thesis: Needs Assessment and Development of a Virtual Course in Digital Health (1.0).
+- The study program provided knowledge, training, and discussions on the current Digital Health curriculum and trends. Modules included:
+  - Evidence-Based Medicine
+  - Standards, Terminology, and Classification in Medicine
   - International Healthcare Management
-  - Ehealth and Telemedicine
+  - eHealth and Telemedicine
   - Medical Documentation
   - Health Economy
   - Statistics and Data Analysis
@@ -92,13 +91,13 @@ Government Medical College
 
 ---
 
-## ![Projects](https://img.icons8.com/ios/24/000000/project.png) Project
+## ![Projects](https://img.icons8.com/ios/24/000000/project.png) Projects
 
 **Apr. 2019 - July 2019**  
 **Semper (Study Project)**  
 Pfarrkirchen, Germany
 
-- Medical Team Member for the framework of a Teleconsultation and Stroke Patient management application.
+- Medical team member for the framework of a teleconsultation and stroke patient management application.
 
 ---
 
