@@ -6,8 +6,6 @@ order: 4
 
 # **Curriculum Vitae**
 
----
-
 ## ![Skills](https://img.icons8.com/ios/24/000000/medal.png) Skills
 
 - Practice experience in Geriatric Medicine (1.5 years)
@@ -69,7 +67,6 @@ Kerala, India
 Kerala, India  
 Government Medical College Ernakulam
 
----
 
 ## ![Education](https://img.icons8.com/ios/24/000000/school.png) Education
 
@@ -95,7 +92,6 @@ European Campus Rottal-Inn (1.3)
 Kerala, India  
 Government Medical College
 
----
 
 ## ![Projects](https://img.icons8.com/ios/24/000000/project.png) Projects
 
