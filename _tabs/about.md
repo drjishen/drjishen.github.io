@@ -68,7 +68,8 @@ Kerala, India
 Government Medical College Ernakulam
 
 
-## ![Education](https://img.icons8.com/ios/24/000000/school.png) Education
+![Education](https://img.icons8.com/ios/24/000000/school.png) 
+## Education
 
 **Oct. 2018 - Sep. 2022**  
 **Master of Medical Informatics**  
@@ -101,7 +102,6 @@ Pfarrkirchen, Germany
 
 - Medical team member for the framework of a teleconsultation and stroke patient management application.
 
----
 
 ## ![Memberships](https://img.icons8.com/ios/24/000000/membership-card.png) Memberships and Certifications
 
