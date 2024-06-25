@@ -9,18 +9,18 @@ order: 4
 ## ![Skills](https://img.icons8.com/ios/24/000000/medal.png) Skills
 
 - Practice experience in Geriatric Medicine (1.5 years)
-- Good communication skills in English and German (Professional Level)
+- Good communication skills in English (Professional) and German (B2-C1)
 - Medical documentation and evidence-based medicine (Expert)
 - Digital health: mHealth, e-health, and telemedicine (Expert)
-- Medical data analysis (Expert)
-- Interoperability standards and architecture: ICD, SNOMED CT, LOINC, HL7, OpenEHR (Expert)
-- Programming skills in R, C++ (Beginner)
-- Cybersecurity and networking
+- Medical data analysis (Proficient)
+- Interoperability standards and architecture: ICD, SNOMED CT, LOINC, HL7, OpenEHR (Competent)
+- Programming skills in R, C++ (Competent)
+- Cybersecurity and networking (Advanced Beginner)
 
 ## ![Languages](https://img.icons8.com/ios/24/000000/language.png) Languages
 
 - English C1 (IELTS Academic - 7.5, 12 years of schooling, 6 years in Medicine, and 1.5 years of M.Sc. study in Germany)
-- German B2.1 Level (Fluent in day-to-day conversations and basic professional discussions)
+- German B2- C1 Level (Fluent in day-to-day conversations and competent in professional discussions)
 - Malayalam (Native language)
 
 ## ![Work Experience](https://img.icons8.com/ios/24/000000/briefcase.png) Work Experience
@@ -32,6 +32,7 @@ Pfarrkirchen, Germany
 - Supported digital health research activities at the European Campus Rottal-Inn, Deggendorf Institute of Technology.
 - Member of the organizing committee for the DigiHealthDay event series, responsible for program content and communication.
 - Lectured in the Master of Digital Health (MDH) course at ECRI on Digital Health Applications.
+- Supervised 2 Master Thesis in Digital Health
 
 **Mar. 2019 - Sep. 2022**  
 **Graduate Teaching Assistant (SHK)**  
@@ -106,5 +107,11 @@ Pfarrkirchen, Germany
 ## ![Memberships](https://img.icons8.com/ios/24/000000/membership-card.png) Memberships and Certifications
 
 - HIMSS - Individual Member since 2020  
+
+
+## ![Hobbies](https://img.icons8.com/?size=100&id=C9jQmdAoWP07&format=png&color=000000) 
+
+I love technology and one of my favorite hobbies is it to play in my homelab and experiment with home automations using Home Assistant, IoTs, and servers. I have my own collection of locally hosted services for productivity and entertainment. I also love to travel with family and friends.
+
 
 ---
