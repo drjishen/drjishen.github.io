@@ -109,7 +109,7 @@ Pfarrkirchen, Germany
 - HIMSS - Individual Member since 2020  
 
 
-## ![Hobbies](https://img.icons8.com/?size=100&id=C9jQmdAoWP07&format=png&color=000000) 
+## ![Hobbies](https://img.icons8.com/?size=100&id=C9jQmdAoWP07&format=png&color=000000) Hobbies
 
 I love technology and one of my favorite hobbies is it to play in my homelab and experiment with home automations using Home Assistant, IoTs, and servers. I have my own collection of locally hosted services for productivity and entertainment. I also love to travel with family and friends.
 
