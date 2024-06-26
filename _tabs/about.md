@@ -32,7 +32,8 @@ Pfarrkirchen, Germany
 
 - Supported digital health research activities at the European Campus Rottal-Inn, Deggendorf Institute of Technology.
 - Member of the organizing committee for the [DigiHealthDay](https://www.th-deg.de/digihealthday) (DHD) event series, responsible for program content and communication.
-- Responsible of DHD website and supported creation of marketing materials
+- Responsible for DHD website
+- Supported creation of DHD marketing materials
 - Lectured in the Master of Digital Health (MDH) course at ECRI on Digital Health Applications.
 - Supervised one Master Thesis in Digital Health on IoT, and currently co-supervising one on the topic Digital Health Education in India.
 
