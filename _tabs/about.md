@@ -16,6 +16,7 @@ order: 4
 - Interoperability standards and architecture: ICD, SNOMED CT, LOINC, HL7, OpenEHR (Competent)
 - Programming skills in R, C++ (Competent)
 - Cybersecurity and networking (Advanced Beginner)
+- On a learning curve - Knowledge Graphs, Vector databases, RAG, Medical LLMs, Gen AI in Medicine, ACC (Automated Clinical Coding)
 
 ## ![Languages](https://img.icons8.com/ios/24/000000/language.png) Languages
 
@@ -30,9 +31,10 @@ order: 4
 Pfarrkirchen, Germany  
 
 - Supported digital health research activities at the European Campus Rottal-Inn, Deggendorf Institute of Technology.
-- Member of the organizing committee for the DigiHealthDay event series, responsible for program content and communication.
+- Member of the organizing committee for the [DigiHealthDay](https://www.th-deg.de/digihealthday) (DHD) event series, responsible for program content and communication.
+- Responsible of DHD website and supported creation of marketing materials
 - Lectured in the Master of Digital Health (MDH) course at ECRI on Digital Health Applications.
-- Supervised 2 Master Thesis in Digital Health
+- Supervised one Master Thesis in Digital Health on IoT, and currently co-supervising one on the topic Digital Health Education in India.
 
 **Mar. 2019 - Sep. 2022**  
 **Graduate Teaching Assistant (SHK)**  
@@ -47,7 +49,7 @@ European Campus Rottal-Inn
   - Assisted in organizing the DigiHealthDay event series.
   - Handled communications with international and local partners, including HIMSS, ISfTeH, IMIA, and EFMI.
   - Prepared regular event updates and announcement letters.
-  - Helped update the website [DigiHealthDay](https://www.th-deg.de/digihealthday).
+  - Helped update the website of DigiHealthDay.
 - Organized and conducted complementary on-campus activities: invited lectures, workshops, video lectures, scientific conferences, and master’s colloquia.
 - Organized and conducted complementary off-campus activities: field trips, scientific conferences, external meetings, trip management, and student feedback.
 - Assisted researchers at DIT-ECRI in developing and improving the Digital Health Educational curriculum.
@@ -69,8 +71,7 @@ Kerala, India
 Government Medical College Ernakulam
 
 
-![Education](https://img.icons8.com/ios/24/000000/school.png) 
-## Education
+## ![Education](https://img.icons8.com/ios/24/000000/school.png) Education
 
 **Oct. 2018 - Sep. 2022**  
 **Master of Medical Informatics**  
@@ -109,7 +110,7 @@ Pfarrkirchen, Germany
 - HIMSS - Individual Member since 2020  
 
 
-## ![Hobbies](https://img.icons8.com/?size=100&id=C9jQmdAoWP07&format=png&color=000000) Hobbies
+## ![Hobbies](https://img.icons8.com/?size=100&id=C9jQmdAoWP07&format=png&color=000000)Hobbies
 
 I love technology and one of my favorite hobbies is it to play in my homelab and experiment with home automations using Home Assistant, IoTs, and servers. I have my own collection of locally hosted services for productivity and entertainment. I also love to travel with family and friends.
 
