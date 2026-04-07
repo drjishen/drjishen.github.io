@@ -1,61 +1,131 @@
-# Chirpy Starter
+# drjishen.com — Personal Site & Blog
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+Personal website of **Jishen Pfeiffer** — MD, Digital Health Researcher, PhD Student.
+Live at **[drjishen.com](https://drjishen.com)**.
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+Built with [Jekyll](https://jekyllrb.com/) using the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) theme (v7.5.0), hosted on GitHub Pages.
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+---
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+## Running Locally
 
-```shell
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+Then open `http://localhost:4000`.
+
+> **Note:** The local Ruby environment may have an older Chirpy gem cached. The server always uses the version pinned in `Gemfile.lock`. If you see discrepancies, run `bundle update jekyll-theme-chirpy` to sync.
+
+---
+
+## Project Structure
+
+```
 .
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+├── _config.yml                  # Site configuration (title, URL, social links, timezone)
+├── _tabs/
+│   └── about.md                 # About/CV page — rich HTML-in-Markdown layout
+├── _posts/                      # Blog posts (YYYY-MM-DD-title.md)
+├── _includes/
+│   └── head.html                # Overrides Chirpy's <head> — adds custom.css link
+├── assets/css/
+│   └── custom.css               # Custom styles (teal palette, badges, timeline, etc.)
+├── .github/
+│   ├── workflows/
+│   │   ├── pages-deploy.yml     # Builds & deploys site to GitHub Pages (CI/CD)
+│   │   ├── monthly-prompt.yml   # Creates a monthly update issue on the 1st of each month
+│   │   └── generate-from-issue.yml  # Generates blog post PR when issue is labeled ready-to-publish
+│   └── ISSUE_TEMPLATE/
+│       └── monthly-update.md    # Issue template for monthly updates
+└── tools/
+    └── generate_post.py         # Python script: parses issue body → Jekyll post draft
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+---
 
-## Prerequisites
+## Custom Styling
 
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of
-the basic environment. [Git](https://git-scm.com/) also needs to be installed.
+`assets/css/custom.css` provides the visual theme:
 
-## Installation
+- **Accent colour:** deep teal `#0a7ea4`
+- **Skill badges:** coloured pills grouped by category (Clinical, Digital Health, AI/ML, Tech, Security, Learning)
+- **Language bars:** gradient progress bars
+- **Work timeline:** vertical timeline with hover effects
+- **Education cards:** bordered card layout
+- **Dark mode:** all components have `[data-mode="dark"]` overrides
 
-Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
-`USERNAME.github.io`, where `USERNAME` represents your GitHub username.
+---
 
-Then clone it to your local machine and run:
+## Blog Posts
 
-```console
-$ bundle
-```
+| File | Title | Date |
+|---|---|---|
+| `2024-05-26-hallo.md` | Welcome to my Digital Health Blog | May 2024 |
+| `2024-09-01-medical-llms-intro.md` | Introduction to LLMs in Medicine | Sep 2024 |
+| `2024-11-15-fhir-openehr-interoperability.md` | HL7 FHIR vs OpenEHR | Nov 2024 |
+| `2025-02-01-knowledge-graphs-healthcare.md` | Knowledge Graphs in Healthcare | Feb 2025 |
 
-## Usage
+---
 
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+## Monthly Update Agent
 
-## Contributing
+A GitHub-native workflow that automates keeping the site current.
 
-The contents of this repository are automatically updated when new releases are made to the [main repository][chirpy].  
-If you have problems using it, or would like to participate in improving it, please go to the main repository for feedback!
+### How it works
 
-## License
+1. **On the 1st of every month** — `monthly-prompt.yml` creates a GitHub Issue with a structured template asking about:
+   - Skills studied, courses completed, papers read
+   - Projects worked on, events attended
+   - Suggested blog post topic + outline
+   - About page updates needed
 
-This work is published under [MIT][mit] License.
+2. **Fill in the issue** — answer the questions directly in the issue body.
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+3. **Label the issue `ready-to-publish`** — `generate-from-issue.yml` triggers automatically:
+   - Runs `tools/generate_post.py` to parse the issue and generate a Jekyll post
+   - Creates a new branch and commits the draft post
+   - Opens a Pull Request for review
+
+4. **Review and merge the PR** — edit the draft, then merge to publish.
+
+### Manual trigger (for testing)
+
+Go to **Actions → Monthly Update Prompt → Run workflow**.
+
+### Required GitHub permissions
+
+Go to **Settings → Actions → General → Workflow permissions** and set to **"Read and write permissions"**. Required for issue creation and PR opening.
+
+---
+
+## Deployment
+
+Deploys automatically on push to `main` via `.github/workflows/pages-deploy.yml`.
+
+**GitHub Pages must be set to "GitHub Actions" source:**
+Settings → Pages → Build and deployment → Source → **GitHub Actions**
+
+The workflow:
+1. Builds with `bundle exec jekyll b`
+2. Runs `htmlproofer` (external links disabled)
+3. Uploads artifact → deploys via `actions/deploy-pages`
+
+---
+
+## Known Issues & Notes
+
+### Chirpy 7.5.0 — `_includes/head.html` compatibility
+
+The project overrides Chirpy's `head.html` (in `_includes/head.html`) to inject `custom.css`.
+Chirpy 7.5.0 **removed** `mode-toggle.html` — the reference to it has been removed from our override.
+If upgrading Chirpy in future, re-check `_includes/head.html` against the new theme version.
+
+### GitHub Pages source must be "GitHub Actions"
+
+If the source is set to "Deploy from a branch", GitHub tries to build Jekyll itself (without the Chirpy gem), fails, and serves raw `.md`/`.html` files. Always keep it on **GitHub Actions**.
+
+### Empty commits don't trigger "Build and Deploy"
+
+The `pages-deploy.yml` workflow only fires when actual files change. Empty commits (`git commit --allow-empty`) will not trigger a site rebuild.
