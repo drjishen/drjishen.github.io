@@ -12,9 +12,7 @@ permissions:
 jobs:
   generate-post:
     # Only run when the label added is 'ready-to-publish' on a 'monthly-update' issue
-    if: >
-      github.event.label.name == 'ready-to-publish' &&
-      contains(github.event.issue.labels.*.name, 'monthly-update')
+    if: "github.event.label.name == 'ready-to-publish' && contains(github.event.issue.labels.*.name, 'monthly-update')"
 
     runs-on: ubuntu-latest
 
@@ -68,9 +66,8 @@ jobs:
           git commit -m "draft: monthly update post from issue #${ISSUE_NUMBER}"
           git push origin "$BRANCH"
 
-          gh pr create \
-            --title "Draft: Monthly Update Blog Post (Issue #${ISSUE_NUMBER})" \
-            --body "Auto-generated draft from monthly update issue #${ISSUE_NUMBER}.
+          PR_BODY=$(cat <<PRBODY
+Auto-generated draft from monthly update issue #${ISSUE_NUMBER}.
 
 **Please review and edit the post before merging.**
 
@@ -80,7 +77,13 @@ jobs:
 - [ ] Check that the date is correct
 - [ ] Merge when satisfied
 
-Closes #${ISSUE_NUMBER}" \
+Closes #${ISSUE_NUMBER}
+PRBODY
+)
+
+          gh pr create \
+            --title "Draft: Monthly Update Blog Post (Issue #${ISSUE_NUMBER})" \
+            --body "$PR_BODY" \
             --head "$BRANCH" \
             --base main \
             --label "blog-post-draft"
