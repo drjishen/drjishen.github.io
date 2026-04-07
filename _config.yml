@@ -16,10 +16,10 @@ timezone:
 
 title: Jishen Pfeiffer # the main title
 
-tagline: Digital Heatlh Specialist & Researcher # it will display as the sub-title
+tagline: Digital Health Specialist & Researcher # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A Bio & Blog page for article and review writing.
+  MD turned Digital Health researcher — writing about medical AI, health data standards, interoperability, and the future of tech-enabled healthcare.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -29,14 +29,14 @@ url: "https://drjishen.com"
 github:
   username: drjishen # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+# twitter:
+#   username: # add your twitter/X username if desired
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Jishen Pfeiffer
-  email: example@domain.com # change to your email address
+  email: # add your email address here
   links:
     # The first element serves as the copyright owner's link
     # https://twitter.com/username # change to your twitter homepage

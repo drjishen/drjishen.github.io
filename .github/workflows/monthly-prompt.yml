@@ -1,0 +1,111 @@
+name: Monthly Update Prompt
+
+on:
+  schedule:
+    # 1st of every month at 09:00 UTC
+    - cron: "0 9 1 * *"
+  workflow_dispatch: # allow manual trigger for testing
+
+permissions:
+  issues: write
+
+jobs:
+  create-monthly-issue:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Create monthly update issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const now = new Date();
+            const monthNames = [
+              "January","February","March","April","May","June",
+              "July","August","September","October","November","December"
+            ];
+            const month = monthNames[now.getMonth()];
+            const year = now.getFullYear();
+
+            const title = `Monthly Update — ${month} ${year}`;
+
+            const body = `## Monthly Update: ${month} ${year}
+
+Thank you for filling in this month's update! Completing this issue helps keep the blog and About page current.
+When you're done, add the label \`ready-to-publish\` to trigger the blog post draft workflow.
+
+---
+
+### 1. Skills & Topics Studied This Month
+> What did you study, explore, or practice? New tools, frameworks, clinical concepts, or technical skills.
+
+<!-- Fill in below -->
+
+
+---
+
+### 2. Courses, Certifications & Learning Resources
+> Online courses (Coursera, edX, Udemy, etc.), books, tutorials, workshops attended.
+
+<!-- Fill in below -->
+
+
+---
+
+### 3. Research & Papers
+> Papers you read, wrote, or reviewed. Conferences or journals. Any ongoing research updates.
+
+<!-- Fill in below -->
+
+
+---
+
+### 4. Projects Worked On
+> Code projects, data analysis, digital health implementations, tools built or contributed to.
+
+<!-- Fill in below -->
+
+
+---
+
+### 5. Events & Conferences
+> Conferences attended (in-person or virtual), talks given, panels participated in, networking highlights.
+
+<!-- Fill in below -->
+
+
+---
+
+### 6. Blog Post Topic Suggestion
+> What topic would make a good post this month? Provide a title and brief outline.
+
+**Suggested Title:**
+<!-- e.g. "RAG Pipelines for Clinical Decision Support" -->
+
+**Outline:**
+<!-- e.g.
+- Introduction: why retrieval matters for clinical AI
+- Architecture overview
+- Example use case
+- Limitations and open questions
+-->
+
+
+---
+
+### 7. About Page Updates
+> New skills to add? Role changes? New projects or certifications to list?
+
+<!-- Fill in below -->
+
+
+---
+
+*Once filled in, add the label \`ready-to-publish\` to auto-generate a blog post draft PR.*`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: title,
+              body: body,
+              labels: ["monthly-update"]
+            });
